@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="src/styles.css" rel="stylesheet">
+    <script type="module" src="src/utils/lang.js"></script>
+    <title>BP Mobile</title>
+</head>
+<body class="body">
+<header class="header">
+    <div class="status-bar">
+
+    </div>
+    <div class="cross">
+        <a href="#">
+            <svg width="100%" height="100%" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="Cross" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M10.5158 9.89951L18.6248 1.79052L19.2216 2.38732L11.1126 10.4963L19.5 18.8837L18.8837 19.5L10.4963 11.1126L2.38732 19.2216L1.79052 18.6248L9.89951 10.5158L1.5 2.11628L2.11628 1.5L10.5158 9.89951Z"
+                      stroke="white" stroke-opacity="0.4" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </div>
+</header>
+<main class="main">
+    <h1 class="title lang">Get Unlimited <br>Access</h1>
+    <section class="illustrations">
+        <figure class="images">
+            <img src="public/f1/f1@3x.png" alt="Art">
+            <h4 class="lang">Unlimited Art <br>Creation</h4>
+        </figure>
+        <figure class="images">
+            <img src="public/f2/f2@3x.png" alt="Styles">
+            <h4 class="lang">Exclusive <br>Styles</h4>
+        </figure>
+        <figure class="images">
+            <img src="public/f3/f3@3x.png" alt="Avatars">
+            <h4 class="lang">Magic Avatars <br>With 20% Off</h4>
+        </figure>
+    </section>
+    <section class="offer">
+        <form>
+            <div class="access">
+                <div class="link year">
+                    <input type="radio" id="year" name="access" value="https://apple.com/"/>
+                    <label for="year">
+                        <span class="yearly_container">
+                            <img class="bestOffer" src="/public/bestOffer/BestOffer.png" alt="Offer">
+                            <span>
+                                <span class="yearly_access lang">YEARLY ACCESS</span>
+                                <br>
+                                <span class="per_year lang">Just {{price}} per year</span>
+                            </span>
+                            <span class="right_side lang">{{price}} <br>per week</span>
+                        </span>
+                    </label>
+                </div>
+
+                <div class="link week">
+                    <input type="radio" id="week" name="access" value="https://google.com/"/>
+                    <label for="week">
+                        <span class="weekly_container">
+                            <span class="left_side lang">WEEKLY ACCESS</span>
+                            <span class="right_side lang">{{price}} <br>per week</span>
+                        </span>
+                    </label>
+                </div>
+            </div>
+            <button class="continue"><a id="submit" href="" class="lang">Continue</a></button>
+        </form>
+    </section>
+</main>
+<footer class="footer">
+    <nav class="footer_nav">
+        <button><a href="#" class="lang">Terms of Use</a></button>
+        <button><a href="#" class="lang">Privacy Policy</a></button>
+        <button><a href="#" class="lang">Restore</a></button>
+    </nav>
+</footer>
+<script src="src/utils/links.js"></script>
+</body>
+</html>
