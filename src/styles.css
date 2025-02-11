@@ -51,7 +51,7 @@ html {
 }
 
 @media screen and (max-width: 375px), (max-height: 755px) {
-    .footer, .main. header {
+    .footer, .main, .header {
         width: 87.2vw;
     }
     .main {
