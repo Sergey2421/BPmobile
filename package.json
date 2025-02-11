@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://{Sergey2421}.github.io/{BPmobile}/",
+  "homepage": "https://Sergey2421.github.io/BPmobile/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
